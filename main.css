@@ -1,0 +1,44 @@
+.head{
+    margin-bottom: 2em;
+    
+}
+
+body{
+    text-align: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  a{
+      color: black;
+      text-decoration: none;
+  }
+
+  h1{
+      line-height: 0.5em;
+      font-family: 'Sacramento', cursive;
+  }
+
+  h3{
+      line-height: 0.5em;
+      font-variant: small-caps;
+      font-size: 1.45em;
+      letter-spacing: 0.2em;
+  }
+
+  .head h5{
+      font-family: "Roboto", Cambria, Cochin, Georgia, Times, Times New Roman, sans-serif;
+    /* letter-spacing: 0.1em; */
+  }
+
+  footer i {
+      margin-top: 2em;
+      font-family: 'Sacramento', cursive;
+      font-size: 1.2em;
+  }

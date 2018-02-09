@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    
+    <script src="main.js"></script>
+
+    
+</head>
+
+<style>
+
+    .big-box{
+        height: 100%;
+        width: 100%;
+    }
+
+    .first-line{
+        border-bottom: 3px solid orange;
+    }
+
+    .div-mid{
+        border-left: 3px solid orange; 
+        border-right: 3px soild orange
+    }
+
+</style>
+
+
+<body>
+   
+    <div class="big-box">
+    
+    <div class="first-line">
+        <div class="div-first"></div>
+        <div class="div-mid"></div>
+        <div class="div-third"></div>
+    </div>
+
+    <div class="second-line">
+        <div class="div-first"></div>
+        <div class="div-mid"></div>
+        <div class="div-third"></div>
+    </div>
+
+    <div class="third-line">
+        <div class="div-first"></div>
+        <div class="div-mid"></div>
+        <div class="div-third"></div>
+    </div>
+
+
+    </div>
+
+    <footer>
+        <quote>
+            <i> 
+                Break things, move fast
+            </i>
+        </quote>
+    </footer>
+    
+    </div>
+    
+</body>
+</html>
