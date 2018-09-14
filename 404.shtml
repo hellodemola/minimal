@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Error page</title>
+    <link rel="icon" href="assets/images/favi.ico" sizes="16x16" type="image/ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sacramento|Roboto:100" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+</head>
+<body>
+    <div class="centered">
+      
+    <div class="head">           
+    <h1>Hellodemola</h1>
+    <h3>404 error</h3>
+    </div>
+
+    <div class=" ">
+        <div class="row">
+            <div class="twelve columns" style="text-align: center">      
+            <!-- <h5>     -->
+                   <img src="assets/images/broken-link.svg">
+            <!-- </h5>  -->
+            </div>
+
+            <div class="twelve columns" style="text-align:center; margin-top:2em;">               
+                <p> OOPS! SOMETHING WENT WRONG </p>                 
+            </div>
+        
+           </div> 
+    </div>
+  
+
+    <footer>
+        <quote>
+            
+            <i> 
+                <code>
+                        <a href="index.html" class="home__link"> Come back <b> Home</a>  </b>
+                </code>
+            </i>
+        </quote>
+        <br>
+       
+       
+    </footer>
+    
+    </div>
+    
+</body>
+</html>
