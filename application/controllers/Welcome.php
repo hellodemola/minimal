@@ -18,8 +18,44 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __construct()
+	{
+		parent::__construct();
+		date_default_timezone_set("Africa/Lagos");
+		$this->load->helper('path');
+		$this->load->helper(array('form', 'url'));
+		$this->load->library('form_validation');
+
+	}
+
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('home');
 	}
+
+	public function about()
+	{
+		$this->load->view('about');
+	}
+
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+
+	public function feed()
+	{
+		$this->load->view('feed');
+	}
+
+	public function works()
+	{
+		$this->load->view('works');
+	}
+
+
+
+
+
+
 }

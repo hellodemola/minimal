@@ -8,7 +8,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-83959420-1');
 </script>
  
@@ -18,18 +17,18 @@
     <link rel="icon" href="assets/images/favi.ico" sizes="16x16" type="image/ico" />
     <meta name="viewport" content="I am a dude that develop web products">
     <meta name="viewport" keyword="lagos, Nigeria, Web, developer, designer">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/skeleton.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-    <script src="assts/css/main.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Sacramento|Roboto:100" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
 </head>
 
 <body>
-<div class="centered">
+<div class="container">
       
-    <div class="head">      
+    <div class="">      
             <h1><a  href="index.html"> Hellodemola </a></h1>
             <h3>Web developer</h3>
             <h5>
@@ -39,16 +38,16 @@
 
     <div class="">
         <div class="row">
-            <div class="four columns">
+            <div class="">
                 <h5> <a href="works.html"> <span class="ion-briefcase"> </span> Works </a></h5>
                 <h5> <a href="https://github.com/hellodemola" target="_blank">  <span class="ion-social-codepen"> </span> Lab </a></h5>
             </div>
-            <div class="four columns">
+            <div class="">
                 <h5><a href="contact.html"><span class="ion-chatbubble-working"> </span> Contact</a></h5>
                 <h5> <a href="https://medium.com/@hellodemola" target="_blank"> <span class="ion-social-rss-outline"> </span> Blog </a></h5>
             
             </div>
-            <div class="four columns"> 
+            <div class=""> 
                 <h5><a href="about.html"> <span class="ion-person"> </span> About </a></h5> 
                 <h5> <a href="feed.html" target="_blank"> <span class="ion-social-twitter"> </span> Feeds </a></h5>
             </div>
