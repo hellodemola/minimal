@@ -28,7 +28,7 @@
             
             <i> 
                 <code>
-                        <a href="<?php echo site_url("welcome"); ?>"> Come back <b> Home</a>  </b>
+                        <a href="<?php echo site_url("welcome"); ?>"> Come back <b> Home </b> </a>
                 </code>
             </i>
         </quote>

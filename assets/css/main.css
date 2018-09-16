@@ -23,7 +23,7 @@ body{
 
   h1{
       line-height: 0.5em;
-      font-family: 'Sacramento', cursive;
+      font-family: 'Sacramento', 'Arial', cursive;
   }
 
   h3{
@@ -48,6 +48,6 @@ body{
   }
 
   code b{
-    color: aqua;
+    color: tomato;
     text-decoration: underline;
 }
