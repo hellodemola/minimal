@@ -17,11 +17,8 @@
     <title> Home ~ hellodemola.com </title>
     <link rel="icon" href="assets/images/favi.ico" sizes="16x16" type="image/ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/skeleton.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>assets/css/main.css" />
-
-    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Sacramento|Roboto:100" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
 </head>
