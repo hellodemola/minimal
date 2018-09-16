@@ -22,10 +22,20 @@
     <link href="https://fonts.googleapis.com/css?family=Sacramento|Roboto:100" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
 
-    <meta name="description" content="Web developer that develop relevant contents that keeps you found, with ease. Hello demola">
-    <meta name="title" content="Hello demola">
+    <meta name="description" content="Web developer that deliver relevant contents that get you found, with ease always">
+    <meta og:description content="Web developer that deliever relevant contents that get you found, with ease always">
+    <meta name="title" content="Hellodemola">
+     <meta og:title content="Hellodemola">
     <meta name="keywords" content="webdesign, coding, socialmedia, profession designer, lagos, Nigeria, ">
     <meta name="author" content="hellodemola.com">
-    <meta property="og:image" content="<?php echo base_url(); ?>assets/images/og.png" />
+    <meta property="og:image" content="<?php echo base_url(); ?>assets/images/og.jpg" />
+    <meta og:url content="hellodemola.com">
+
+  
+
+    <link itemprop="image" content="<?php echo base_url(); ?>assets/images/og.jpg" />
+
+
+    <meta name= "theme-color" content= "tomato" >
 
 </head>
