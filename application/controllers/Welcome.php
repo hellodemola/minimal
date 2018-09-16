@@ -53,9 +53,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('works');
 	}
 
+	public function my404()
+	{
+		$this->output->set_status_header('404');
+		$this->load->view('err404');//loading in custom error view
+	} 
 
-
-
-
-
+	
 }
